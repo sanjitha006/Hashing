@@ -43,31 +43,11 @@ Search Keyword: Searches for books containing a specific keyword.
 Time Complexity:
 
 MuskLibrary: 
-𝑂
-(
-𝑘
-𝑊
-log
-⁡
-𝑊
-+
-𝑘
-log
-⁡
-𝑘
-)
+
 O(kWlogW+klogk) for initialization, where k is the number of books and W is the number of words per book.
 
 JGBLibrary: 
-𝑂
-(
-𝑊
-+
-table size
-)
+
 O(W+table size) for adding a book, with 
-𝑂
-(
-1
-)
+
 O(1) for finding distinct words and counting them.
